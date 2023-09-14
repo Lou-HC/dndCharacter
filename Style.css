@@ -1,0 +1,692 @@
+Body{
+
+    color: cyan ;
+    background-color: #26004d;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+@font-face {
+    font-family: Loving;
+    src: url(Fonts/Loving.ttf);
+}
+@font-face {
+    font-family: Kalam;
+    src: url(Fonts/Kalam-Regular.ttf);
+}
+@font-face {
+    font-family: labelle;
+    src: url(Fonts/LaBelleAurore-Regular.ttf);
+}
+@font-face {
+    font-family: Squarep;
+    src: url(Fonts/SquarePeg-Regular.ttf);
+}
+@font-face {
+    font-family: Charm ;
+    src: url(Fonts/Charm-Regular.ttf);
+}
+@font-face {
+    font-family: Griffy;
+    src: url(Fonts/Griffy-Regular.ttf);
+}
+@font-face {
+    font-family: Oleo;
+    src: url(Fonts/OleoScript-Regular.ttf);
+}
+/*.Section-One{
+    background-image: 'nightBack1.jpeg';
+    background-color: red;
+    height: 200%;
+}*/
+.Bard1{
+    position: absolute;
+    border-radius: 3%;
+    left: 23%;
+    top: 17%;
+    width: 26%;
+    height: 80%;
+    box-shadow: 0 0 4px crimson , 0 0 7px red , 0 0 10px blueviolet;
+    cursor: default;
+}
+.violin{
+    position: absolute;
+    border-radius: 3%;
+    width: 26%;
+    height: 80%;
+    right: 23%;
+    top: 17%;
+    box-shadow: 0 0 4px crimson , 0 0 7px red , 0 0 10px blueviolet;
+    cursor: default;
+}
+.Bard1:hover {
+    box-shadow: 0 0 5px crimson , 0 0 10px red , 0 0 30px blueviolet;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.violin:hover {
+    transition-duration: 1s;
+    box-shadow: 0 0 5px crimson , 0 0 10px red , 0 0 30px blueviolet;  
+}
+.TitleName{
+    color: cyan;
+    outline-color: black;
+    text-align: center;
+    text-decoration: underline 2px crimson;
+    font-size: 300%;
+    transition-timing-function: linear;
+}
+.TitleName:hover{   
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+    transform: translateY(-4px);
+    text-shadow:  0 0 4px cyan , 0 0 6px cyan;
+}
+.HPLine{
+    position: absolute;
+    rotate: 90deg;
+    width: 100%;
+    left: 100px;
+    top: 100px;
+
+}
+.HPContainer{
+    border-color: crimson;
+    border-width: 40px;
+    left: 200px;
+    width: 100px;
+    align-content:  center;
+}
+.h2HP{
+    color: black;
+    text-shadow: 0 0 1px violet , 0 0 3px violet , 0 0 7px violet;
+    position: absolute;
+    top: 4%;
+    left: 6%;
+}
+.h2HP:hover{
+    transition-duration: 0.5s;
+    transform: translateY(-4px);
+    text-shadow: 0 0 3px violet, 0 0 5px violet, 0 0 9px violet;
+}
+.h2Gen{
+    position: absolute;
+    top: 4%;
+    right: 3.5%;
+    color: black;
+    text-shadow: 0 0 1px gold , 0 0 3px gold , 0 0 7px gold;
+}
+.h2Gen:hover{
+    transition-duration: 0.5s;
+    transform: translateY(-4px);
+    text-shadow: 0 0 3px gold, 0 0 5px gold, 0 0 9px gold;
+}
+.h2Add{
+    position: absolute;
+    top: 52%;
+    left: 3%;
+    color: black;
+    text-shadow: 0 0 1px blue , 0 0 3px blue , 0 0 7px cyan;
+}
+.h2Add:hover{
+    transition-duration: 0.5s;
+    transform: translateY(-4px);
+    text-shadow: 0 0 3px blue, 0 0 5px blue, 0 0 9px cyan;
+}
+.h2Gen:hover{
+    transition-duration: 0.5s;
+    transform: translateY(-4px);
+}
+.h2Person{
+    position: absolute;
+    top: 52%;
+    right: 6%;
+    color: black;
+    text-shadow: 0 0 1px green , 0 0 3px green , 0 0 7px green; 
+}
+.h2Person:hover{
+    transition-duration: 0.5s;
+    transform: translateY(-4px);
+    text-shadow: 0 0 3px green, 0 0 5px green, 0 0 9px green;
+}
+.HPTable{
+    position: absolute;
+    top: 12%;
+    left: 1%;
+    background-color: black;
+    border-width: 20px;
+    border-color: crimson;
+    height: 42%;
+    width: 20%;
+    
+    text-align: right;
+    transition-duration: 1s;
+}
+.HPQuest{
+    color: black;
+    background-color: blueviolet;
+    text-align: right;
+    font-size: large;
+}
+.HPInfo{
+    color: black;
+    background-color: blueviolet;
+    text-align: left;
+    font-size: large;
+}
+.HPTable:hover{
+    
+    text-shadow: 0 0 2px crimson , 0 0 5px crimson;
+    box-shadow:0 0 2px crimson , 0 0 5px crimson ;
+    .HPQuest{
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        background-color: #3A046C;
+        color: green;
+    }
+    .HPInfo{
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        background-color: #3A046C;
+        color: green;
+    }
+}
+.GenTable{
+    position: absolute;
+    top: 12%;
+    right:  1%;
+    background-color: black;
+    border-width: 20px;
+    border-color: crimson;
+    height: 42%;
+    width: 20%;
+    text-align: right;
+    transition-duration: 1s;
+    font-size: large;
+}
+.GenQuest{
+    color: black;
+    background-color: blueviolet;
+    text-align: right;
+}
+.GenInfo{
+    color: black;
+    background-color: blueviolet;
+    text-align: left;
+}
+.GenTable:hover{
+    text-shadow: 0 0 2px gold , 0 0 5px gold;
+    box-shadow: 0 0 2px gold , 0 0 5px gold;
+    .GenQuest{
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        background-color: #3A046C;
+    }
+    .GenInfo{
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        background-color: #3A046C;
+    }
+
+}
+.AddTable{
+position: absolute;
+top: 60%;
+left: 1%;
+background-color: black;
+border-width: 20px;
+border-color: crimson;
+height: 42%;
+width: 20%;
+text-align: right;
+transition-duration: 1s;
+
+}
+.AddQuest{
+color: black;
+background-color: blueviolet;
+text-align: right;
+font-size: large;
+}
+.AddInfo{
+color: black;
+background-color: blueviolet;
+text-align: left;
+font-size: large;
+}
+.AddTable:hover{
+text-shadow: 0 0 2px blue , 0 0 5px blue;
+box-shadow: 0 0 2px blue , 0 0 5px blue;
+
+.AddQuest{
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    background-color: #3A046C;
+    color: orange;
+}
+.AddInfo{
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    background-color: #3A046C;
+    color: orange;
+}
+
+}
+.PersonTable{
+    position: absolute;
+    top: 60%;
+    right: 1%;
+    background-color: black;
+    border-width: 20px;
+    border-color: crimson;
+    height: 42%;
+    width: 20%;
+    text-align: right;
+    transition-duration: 1s;
+    font-size: large;
+    /*font-family: Loving , sans-serif;*/
+    }   
+.PersonQuest{
+    color: black;
+    background-color: blueviolet;
+    text-align: right;
+    }
+.PersonInfo{
+    color: black;
+    background-color: blueviolet;
+    text-align: left;
+    }    
+.PersonTable:hover{
+    text-shadow: 0 0 2px green , 0 0 5px green;
+    box-shadow: 0 0 2px green , 0 0 5px green;
+    
+    .PersonQuest{
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        background-color: #3A046C;
+        color: red;
+    }
+    .PersonInfo{
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        background-color: #3A046C;
+        color: red;
+    }   
+    }
+.bob{
+position: absolute;
+background-color: gold;
+align-self: center ;
+width: 99.2%;
+height: 1.3px;
+top: 100%;
+    }
+.h1Second{
+        position: absolute;
+        top: 100% ;
+        left: 40%;
+        color: cyan;
+        outline-color: black;        
+        font-size: 2.5em;
+        transition-timing-function: linear;
+    }
+.h1Second:hover{
+        transition: 0.3s;
+        text-shadow: 0 0 10px Cyan , 0 0 13px cyan , 0 0 20px orangered;
+        transform: translateY(-3px);
+        cursor: alias;
+    }
+.Bard3{
+        position: absolute;
+        border-radius: 3%;
+        right: 23%;
+        top: 113%;
+        width: 26%;
+        height: 80%;
+        box-shadow: 0 0 4px crimson , 0 0 7px red , 0 0 10px blueviolet; 
+    }
+.Bard4{
+        position: absolute;
+        border-radius: 3%;
+        left: 23%;
+        top: 113%;
+        width: 26%;
+        height: 80%;
+        box-shadow: 0 0 4px crimson , 0 0 7px red , 0 0 10px blueviolet;  
+    }
+.Bard3:hover{
+        
+        transition-duration: 1s;
+        box-shadow: 0 0 5px crimson , 0 0 10px red , 0 0 30px crimson;
+    }
+.Bard4:hover{
+        transition-duration: 1s;
+        box-shadow: 0 0 5px crimson , 0 0 10px red , 0 0 30px crimson;
+    }
+.RandomRight{
+    align-content: center;
+    font-size: large;
+    position: absolute;
+    top: 113% ;
+    left: 1% ;
+    border: solid 2px crimson;
+    height: 54%;
+    width: 20%;
+}
+.RandomLeft{
+    font-size: large;
+    position: absolute;
+    top: 113% ;
+    right: 1% ;
+    border: solid 2px crimson;
+    height: 54%;
+    width: 20%; 
+}
+.btnRandomRight{
+    position: absolute;
+    top: 180%;
+    right: 5%;
+    height: 5%;
+    width: 13%;
+    background-color: #2E3192;
+    color: #1BFFFF;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FF61D2;
+    box-shadow: 0 0 4px #537895 , 0 0 8px #537895 , 0 0 16px blue;
+}
+.btnRandomLeft{
+    position: absolute;
+    top: 180%;
+    left: 5%;
+    height: 5%;
+    width: 13%;
+    background-color: #D4145A;
+    color: #FBB03B;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #BFF098;
+    box-shadow: 0 0 4px #C33764 , 0 0 8px #C33764 , 0 0 16px #FF512F;
+}
+.btnRandomLeft:hover{
+    transition-duration: 0.3s;
+    transform: translateY(-4px);
+    box-shadow: 0 0 8px #C33764 , 0 0 14px #C33764 , 0 0 26px #FF512F;
+}
+.btnRandomRight:hover{
+    transition-duration: 0.3s;
+    transform: translateY(-4px);
+    box-shadow: 0 0 8px #537895 , 0 0 14px #537895 , 0 0 26px blue;
+}
+.Kevin{
+    position: absolute;
+    background-color: crimson;
+    border-color: blueviolet;
+    align-self: center ;
+    width: 99.2%;
+    height: 1.3px;
+    top: 210%;
+}
+.h1Parents{
+    position: absolute;
+    top: 210% ;
+    left: 44%; 
+    font-size: 3em;
+    color: deepskyblue;
+    text-shadow: 0 0 3px lightslategray, 0 0 2px lightblue;
+}
+.h2Mother{
+    position: absolute;
+    top: 215% ;
+    right: 20%;
+    color: #EE4540;
+    outline-color: black;        
+    font-size: 2.5em;
+    transition-timing-function: linear; 
+}
+.h2Mother:hover{
+        transition: 0.3s;
+        text-shadow: 0 0 10px crimson , 0 0 13px yellow , 0 0 20px orangered;  
+        transform: translateY(-3px);
+        cursor: alias;
+}
+.h2Father{
+    position: absolute;
+    top: 215% ;
+    left: 20%;
+    color: lightseagreen;
+    outline-color: black;        
+    font-size: 2.5em;
+    transition-timing-function: linear;
+}
+.h2Father:hover{
+    transition: 0.3s;
+    text-shadow: 0 0 10px navy , 0 0 13px skyblue , 0 0 20px lightblue;
+    transform: translateY(-3px);
+    cursor: alias;
+}
+.imgMother{
+    position: absolute;
+    top: 230%;
+    right: 5%;
+    width: 40%;
+    height: 160%;
+    border-radius: 5%; 
+    box-shadow: 0 0 4px crimson , 0 0 10px orangered , 0 0 18px orange;
+}
+.imgFather{
+    position: absolute;
+    top: 230%;
+    left: 5%;
+    width: 40%;
+    height: 160%;
+    border-radius: 5%;
+    box-shadow: 0 0 4px navy , 0 0 10px lightseagreen , 0 0 18px blueviolet;
+}
+.Johan{
+    position: absolute;
+    background-color: crimson;
+    border-color: blueviolet;
+    align-self: center ;
+    width: 99.2%;
+    height: 1.3px;
+    top: 389%;
+}
+.h1-Poetry{
+    position: absolute;
+    top: 390% ;
+    left: 44%;
+    text-align: center;
+    font-size: 400%;
+    font-family: LaBelle , cursive;
+    color: #EE4540;
+    text-shadow: 0 0 2px #EE4540 , 0 0 4px #EE4540 , 0 0 8px #EE4540 ;
+
+}
+.h1-Poetry:hover{
+    transition: 3s linear;
+    transform: translateY(-6px) ;
+    transform: skewX(20deg) ;
+    cursor: pointer;
+    
+}
+.Poetry-Container1{
+    position: absolute; 
+    border-style: solid;
+    border-color: crimson;
+    border-width: 10px;
+    border-radius: 20%;  
+    top: 420%;
+    left: 10%;
+    width: 80%;
+    height: 140%;
+    color: #EE4540;
+    text-shadow: 0 0 2px #EE4540  ;
+    background-color: #2d142c;
+    display: grid ;
+    grid-template-columns: 30% 38% 30%;
+    grid-template-rows:20% 20% 20% 20%;
+    align-items: center;
+    
+}
+.Poetry-Container2{
+    position: absolute;   
+    border-style: solid;
+    border-color: crimson;
+    border-width: 10px;
+    border-radius: 20%;
+    top: 580%;
+    left: 10%;
+    width: 80%;
+    height: 140%;
+    color: #EE4540;
+    text-shadow: 0 0 2px #EE4540  ;
+    background-color: #2d142c;
+    display: grid ;
+    grid-template-columns: 30% 38% 30%;
+    grid-template-rows:20% 20% 20% 20%;
+    align-items: center;
+}
+.Poetry-Container3{
+    position: absolute;   
+    border-style: solid;
+    border-color: crimson;
+    border-width: 10px;
+    border-radius: 20%;
+    top: 740%;
+    left: 10%;
+    width: 80%;
+    height: 140%;
+    color: #EE4540;
+    text-shadow: 0 0 2px #EE4540  ;
+    background-color: #2d142c;
+    display: grid ;
+    grid-template-columns: 30% 38% 30%;
+    grid-template-rows:20% 20% 20% 20%;
+    align-items: center;
+}
+.hrEndPoetry{
+    position: absolute;
+    background-color: crimson;
+    border-color: blueviolet;
+    align-self: center ;
+    width: 99.2%;
+    height: 1.3px;
+    top: 884%;
+}
+.SubclassContainer{
+    position: absolute;
+    top: 890%;
+    background-color: whitesmoke;
+    color: black;
+    width: 40%;
+    left: 27%;
+    padding: 1%;
+    border: solid 3px #810608;
+    border-radius: 6%;
+    box-shadow: 0 0 2px #810608 , 0 0 4px red , 0 0 8px crimson;
+}
+.SubclassContainer:hover{
+    cursor: default;
+}
+.SubclassTable{
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+}
+.SubclassRow{
+    background-color: #96e3b6;
+}
+.SubclassHead{
+    color: #810608;
+    text-shadow: 0 0 2px crimson;
+    text-decoration: underline gold 1px ;
+}
+ /* Fonts */
+.Squarep{
+    font-family: Squarep;
+    font-size: x-large;
+    text-align: center;
+}
+.Kalam{
+    font-family: Kalam;
+    text-align: center;
+    
+   
+}
+.Labelle{
+    font-family: labelle;
+    font-size: large;
+    text-align: center;
+}
+.Charm{
+    font-family: Charm;
+    font-size: 120%;
+    text-align: center;
+}
+.Griffy{
+    font-family: Griffy;
+    text-align: center;
+}
+.Oleo{
+    font-family: Oleo;
+    text-align: center;
+}   /* Fonts */
+.Petrus{
+    position: absolute;
+    width: 99%;
+    Top: 570% ;
+    
+}
+.Grass{
+    position: absolute;
+    width: 99%;
+    Top: 730% ; 
+}
+
+/*
+.img1{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.img2{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.img3{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.img4{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.img5{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.img6{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.img7{
+    position: absolute;
+    height: 50%;
+    width: 50%;   
+}
+.img8{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.img9{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+*/
