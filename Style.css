@@ -202,6 +202,7 @@ Body{
     text-align: right;
     transition-duration: 1s;
     font-size: large;
+    transition-duration: 1s
 }
 .GenQuest{
     color: black;
@@ -254,6 +255,7 @@ text-align: left;
 font-size: large;
 }
 .AddTable:hover{
+    transition-duration: 1s;
 text-shadow: 0 0 2px blue , 0 0 5px blue;
 box-shadow: 0 0 2px blue , 0 0 5px blue;
 
@@ -294,6 +296,7 @@ box-shadow: 0 0 2px blue , 0 0 5px blue;
     color: black;
     background-color: blueviolet;
     text-align: left;
+    transition-duration: 2s;
     }    
 .PersonTable:hover{
     text-shadow: 0 0 2px green , 0 0 5px green;
@@ -343,6 +346,7 @@ top: 100%;
         width: 26%;
         height: 80%;
         box-shadow: 0 0 4px crimson , 0 0 7px red , 0 0 10px blueviolet; 
+        transition-duration: 1s;
     }
 .Bard4{
         position: absolute;
@@ -352,10 +356,9 @@ top: 100%;
         width: 26%;
         height: 80%;
         box-shadow: 0 0 4px crimson , 0 0 7px red , 0 0 10px blueviolet;  
+        transition-duration: 1s;
     }
 .Bard3:hover{
-        
-        transition-duration: 1s;
         box-shadow: 0 0 5px crimson , 0 0 10px red , 0 0 30px crimson;
     }
 .Bard4:hover{
@@ -393,6 +396,7 @@ top: 100%;
     border-width: 2px;
     border-color: #FF61D2;
     box-shadow: 0 0 4px #537895 , 0 0 8px #537895 , 0 0 16px blue;
+    transition-duration: 0.3s;
 }
 .btnRandomLeft{
     position: absolute;
@@ -406,14 +410,13 @@ top: 100%;
     border-width: 2px;
     border-color: #BFF098;
     box-shadow: 0 0 4px #C33764 , 0 0 8px #C33764 , 0 0 16px #FF512F;
+    transition-duration: 0.3s;
 }
 .btnRandomLeft:hover{
-    transition-duration: 0.3s;
     transform: translateY(-4px);
     box-shadow: 0 0 8px #C33764 , 0 0 14px #C33764 , 0 0 26px #FF512F;
 }
 .btnRandomRight:hover{
-    transition-duration: 0.3s;
     transform: translateY(-4px);
     box-shadow: 0 0 8px #537895 , 0 0 14px #537895 , 0 0 26px blue;
 }
@@ -500,7 +503,7 @@ top: 100%;
     font-family: LaBelle , cursive;
     color: #EE4540;
     text-shadow: 0 0 2px #EE4540 , 0 0 4px #EE4540 , 0 0 8px #EE4540 ;
-
+    transition: 3s linear;
 }
 .h1-Poetry:hover{
     transition: 3s linear;
@@ -579,11 +582,27 @@ top: 100%;
     background-color: whitesmoke;
     color: black;
     width: 40%;
-    left: 27%;
+    left: 4%;
     padding: 1%;
     border: solid 3px #810608;
     border-radius: 6%;
     box-shadow: 0 0 2px #810608 , 0 0 4px red , 0 0 8px crimson;
+}
+.SubclassContainer2{
+    position: absolute;
+    top: 890%;
+    background-color: purple;
+    color: plum;
+    width: 40%;
+    right: 4%;
+    padding: 1%;
+    border: solid 3px #810608;
+    border-radius: 6%;
+    box-shadow: 0 0 2px #810608 , 0 0 4px red , 0 0 8px crimson;
+}
+#Plum{
+    color: plum;
+    text-decoration: underline crimson;
 }
 .SubclassContainer:hover{
     cursor: default;
@@ -593,8 +612,19 @@ top: 100%;
     width: 70%;
     border-radius: 10px;
 }
+.SubclassTable2{
+    background-color: black;
+    color: crimson;
+    width: 70%;
+    border-radius: 10px;
+    border-bottom: solid 4px crimson;
+}
 .SubclassRow{
     background-color: #96e3b6;
+}
+.SubclassRow2{
+    background-color: crimson;
+    color: black;
 }
 .SubclassHead{
     color: #810608;
